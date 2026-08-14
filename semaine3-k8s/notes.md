@@ -8,6 +8,7 @@ configuration du Deployement.yaml, ==> mode déclaratif, config des containers e
 
 ## readinessProbe vs livenessProbe
 readinessProbe échoue ==> le pod est retiré du Service (plus de trafic envoyé), mais reste vivant, aucun redémarrage — utile par exemple si ton app est temporairement surchargée et doit "souffler" sans perdre son état interne
+ici action automatique contrairement au healthcheck docker
 livenessProbe échoue ==> Kubernetes tue et redémarre le conteneur, en partant du principe qu'il est dans un état irrécupérable
 
 ## Mécanisme d'auto-réparation observé
