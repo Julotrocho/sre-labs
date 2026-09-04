@@ -1,7 +1,6 @@
 # Notes Semaine 2 — Load Balancing
 
 ## Architecture mise en place
-(2-3 phrases : proxy Nginx + 2 backends, round robin, DNS interne Docker Compose)
 Mise en place de 3 containeurs ==> 2 conteneur web nginx avec backend + 1 resverse proxy qui gère le flux et la balance
 loadbalancing en round robin, un try successifs sur chaque containeur
 observation du dns interne de docker compose
