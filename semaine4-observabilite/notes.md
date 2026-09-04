@@ -1,7 +1,6 @@
 # Notes Semaine 4 — Observabilité
 
 ## Incident simulé
-(déroulé, ce qui a bien fonctionné dans la chaîne d'observabilité)
 implémentation d'une boucle pour simluer des erreurs 500, configuration d'une alerte prometeheus et un dahsboard grafana pour observer la chaine complète, succès, observation des différents states pending, firing, et back to normal après modif, cf postmortem
 
 ## Packaging Helm
